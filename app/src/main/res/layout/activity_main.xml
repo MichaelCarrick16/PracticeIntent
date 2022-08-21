@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSendEmail"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@android:color/holo_orange_light"
+        android:text="Send Email"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPlayStore"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_light"
+        android:text="Play Store"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPhoneCall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@android:color/holo_green_light"
+        android:text="Phone Call"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@android:color/holo_red_light"
+        android:text="Camera"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/imvPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
